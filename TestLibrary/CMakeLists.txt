@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Create a DLL with the specified source files
 add_library(TestLibrary SHARED Customer.cpp)
 
-# Specify the public headers of the library
+# Specify the public headers of the librar
 target_include_directories(TestLibrary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
